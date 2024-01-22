@@ -395,3 +395,44 @@
 					});
 
 })(jQuery);
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+	const eventCarousel = document.querySelector('.event-1 .event-carousel');
+	const eventItems = document.querySelectorAll('.event-1 .event-item');
+	const pagination = document.querySelector('.event-1 .pagination');
+
+	let currentIndex = 0;
+
+	function updateCarousel() {
+	  eventCarousel.style.transform = `translateX(${-currentIndex * 100}%)`;
+	  updatePagination();
+	}
+
+	function updatePagination() {
+	  pagination.innerHTML = '';
+	  eventItems.forEach((_, index) => {
+		const dot = document.createElement('div');
+		dot.classList.add('dot');
+		dot.addEventListener('click', () => {
+		  currentIndex = index;
+		  updateCarousel();
+		});
+		if (index === currentIndex) {
+		  dot.classList.add('active');
+		}
+		pagination.appendChild(dot);
+	  });
+	}
+
+	function nextSlide() {
+	  currentIndex = (currentIndex + 1) % eventItems.length;
+	  updateCarousel();
+	}
+
+	setInterval(nextSlide, 5000); // Automatically move every 5 seconds
+
+	updateCarousel();
+  });

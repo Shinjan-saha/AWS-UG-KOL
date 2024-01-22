@@ -1670,3 +1670,63 @@ input, select, textarea {
 			height: auto;
 		  }
 		  
+		  .event-1,
+    .event-2 {
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Styling for the event carousel */
+    .event-carousel {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+
+    /* Styling for each event item */
+    .event-item {
+      flex: 0 0 100%;
+    }
+
+    /* Styling for the "Register Now" button */
+    /* Styling for the "Register Now" button */
+.register-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: purple;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0; /* Initially hidden */
+	transition: opacity 0.3s ease;
+	z-index: 1; /* Ensure it's above the image */
+  }
+  
+  /* Styling for the "Register Now" button on hover */
+  .event-1:hover .register-button,
+  .event-2:hover .register-button {
+	opacity: 1;
+  }
+  
+  /* Styling for pagination dots */
+  .pagination {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+  }
+  
+
+    .dot {
+      height: 10px;
+      width: 10px;
+      margin: 0 5px;
+      background-color: #bbb;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background-color: #717171;
+    }
