@@ -1865,3 +1865,22 @@ input, select, textarea {
   /* background-color: rgba(0, 0, 0, 0.5); */
   background-color: var(--background-color3);
 }
+
+
+
+.round-image {
+    border-radius: 50%;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+}
