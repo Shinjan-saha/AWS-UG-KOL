@@ -1,7 +1,7 @@
 {
-    "name": "Cheerio",
-    "short_name": "Cheerio-24",
-    "description": "Join us at the Annual Farewell of ECE Department",
+    "name": "AWS-UG-KOL",
+    "short_name": "AWS-KOL",
+    "description": "Amazon User Group Kolkata",
     
     "start_url": "/index.html",
     "display": "standalone",
@@ -9,9 +9,9 @@
     "theme_color": "#0078d4",
     "icons": [
       {
-        "src": "./images/cherlogo.png",
+        "src": "./images/awsugkol_logo.jpeg",
         "sizes": "540x540",
-        "type": "image/png"
+        "type": "image/jpeg"
       }
      
     ]
