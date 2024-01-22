@@ -1,19 +1,19 @@
 {
-    "name": "AWS-UG-KOL",
-    "short_name": "AWS-KOL",
-    "description": "Amazon User Group Kolkata",
-    
-    "start_url": "/index.html",
-    "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#0078d4",
-    "icons": [
-      {
-        "src": "./images/awsugkol_logo.jpeg",
-        "sizes": "540x540",
-        "type": "image/jpeg"
-      }
-     
-    ]
-  }
+  "name": "AWS-UG-KOL",
+  "short_name": "AWS-KOL",
+  "description": "Amazon User Group Kolkata",
   
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0078d4",
+  "icons": [
+    {
+      "src": "./images/awsugkol_logo.jpeg",
+      "sizes": "540x540",
+      "type": "image/jpeg"
+    }
+   
+  ]
+}
+
