@@ -10,8 +10,9 @@
   "icons": [
     {
       "src": "./images/awsugkol_logo.jpeg",
-      "sizes": "540x540",
-      "type": "image/jpeg"
+      "sizes": "200x200",
+      "type": "image/jpeg",
+      "purpose" :"any maskable"
     }
    
   ]
