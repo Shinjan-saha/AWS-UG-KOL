@@ -31,9 +31,13 @@ Website For AWS USer Group Kolkata
 
 ## It also has an PWA(Progressive Web App ) 
 ### How to Install it:-
-#### Simply open it in chrome or any Browser & Click the # dot button & click "Install App"
+#### Simply open it in chrome or any Browser & Click the 3 dot button & click "Install App"
 <img width="250" src="./images/ireadmg/pwa.jpg">
 
 
 ## Visit The Website Here:-
 [Visit Here!](https://aws-ug-kol.vercel.app/)
+
+
+## It also Vercel Analytics Enable 
+#### So We can see how many people has visited the Website, they are from where & from which devices they have visited 
