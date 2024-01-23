@@ -1,16 +1,16 @@
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Shinjan-saha.Cheerio)
 
 
 
-# Cheerio
 
-Website For Farewell of ECE Department
+# AWS-UG-KOL
+
+Website For AWS USer Group Kolkata
 
 <br>
 
 
-<img align="centre" width="250" src="./images/cherlogo.png">
+<img align="centre" width="250" src="./images/awsugkol_logo.png">
 
 
 ## Tools & Language Used in the Website:-
@@ -23,11 +23,17 @@ Website For Farewell of ECE Department
 </ul>
 
 ## Preview Of Website in Desktop
-<img width="650" src="./images/ireadmg/desk.png">
+<img width="650" src="./images/ireadmg/desktop.png">
 
 ## Preview of Website in Mobile
-<img width="250" src="./images/ireadmg/mob.png">
+<img width="250" src="./images/ireadmg/mobile.png">
+
+
+## It also has an PWA(Progressive Web App ) 
+### How to Install it:-
+#### Simply open it in chrome or any Browser & Click the # dot button & click "Install App"
+<img width="250" src="./images/ireadmg/mobile.png">
 
 
 ## Visit The Website Here:-
-[Visit Here!](https://cheerio-ece-farewell.vercel.app/)
+[Visit Here!](https://aws-ug-kol.vercel.app/)
