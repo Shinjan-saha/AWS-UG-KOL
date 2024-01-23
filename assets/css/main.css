@@ -1289,13 +1289,18 @@ input, select, textarea {
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
-			line-height: 5.5rem;
+			line-height: 5.0rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			
+			
 		}
 
 			#header .logo .icon:before {
 				font-size: 2rem;
+			}
+			.round-image{
+				margin-right: 2px;
 			}
 
 		#header .content {
@@ -1439,7 +1444,8 @@ input, select, textarea {
 			#header .logo {
 				width: 4.75rem;
 				height: 4.75rem;
-				line-height: 4.75rem;
+				line-height: 5.5rem;
+				margin-right: 10px;
 			}
 
 				#header .logo .icon:before {
@@ -1453,7 +1459,9 @@ input, select, textarea {
 			#header .content p {
 				line-height: 1.875;
 			}
-
+			.round-image{
+				margin-right: 1px;
+			}
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1870,8 +1878,8 @@ input, select, textarea {
 
 .round-image {
     border-radius: 50%;
-    width: 100px; /* Adjust the width as needed */
-    height: 100px; /* Adjust the height as needed */
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
     object-fit: cover;
 }
 
