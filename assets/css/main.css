@@ -1925,6 +1925,8 @@ slideshow-container {
 .img-container {
 	text-align: center;
 	position: relative;
+	justify-content: center;
+	align-items: center;
 }
 .img-content {
 	position: absolute;
@@ -1933,11 +1935,15 @@ slideshow-container {
 	color: white;
 	width: 100%;
 	padding: 10px;
+	
 }
 .btn {
 	text-decoration: none;
-	background-color: #007bff;
+	background-color: #8f0cf4;
 	color: white;
 	padding: 10px 20px;
 	border-radius: 5px;
+	justify-content: center;
+	align-items: center;
+	
 }
